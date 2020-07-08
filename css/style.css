@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  border: 3px solid #030303;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  /*height: 800px;
+  flex-wrap: wrap;
+  align-content: space-around;*/
+  /*flex-direction: column;
+  height: 800px;
+  align-items: baseline;*/
+  /*flex-direction: column;
+    height: 800px;
+    justify-content: space-evenly;*/
+  /*flex-flow: column-reverse wrap-reverse;
+    height: 400px;*/
+  /*flex-direction: row;
+    flex-wrap: wrap;*/
+}
+
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.flex-item__ol li {
+  list-style-type: none;
+}
+.flex-item__item1 {
+  background-color: chocolate;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.flex-item__item2 {
+  background-color: #0f0e0d;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.flex-item__item3 {
+  background-color: darkblue;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.flex-item__item4 {
+  background-color: #1ebdd2;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.flex-item__item5 {
+  background-color: #3d4e50;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+.flex-item__item6 {
+  background-color: #35384d;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+.flex-item__item7 {
+  background-color: #1ebdd2;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+}
+.flex-item__item8 {
+  background-color: #201508;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
+.flex-item__item9 {
+  background-color: #615c5f;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+}
