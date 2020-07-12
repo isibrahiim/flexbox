@@ -45,14 +45,15 @@ table {
 
 body {
   margin: 0;
+  background-color: #ccc;
 }
 
 .container {
   border: 3px solid #030303;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: stretch;
+  justify-content: center;
   /*height: 800px;
   flex-wrap: wrap;
   align-content: space-around;*/
@@ -71,54 +72,39 @@ body {
 .flex-item {
   color: white;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: 5px solid green;
   text-align: center;
+  flex: 1 0 500px;
 }
 .flex-item__ol li {
   list-style-type: none;
 }
 .flex-item__item1 {
   background-color: chocolate;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }
 .flex-item__item2 {
   background-color: #0f0e0d;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }
 .flex-item__item3 {
   background-color: darkblue;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }
 .flex-item__item4 {
   background-color: #1ebdd2;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }
 .flex-item__item5 {
   background-color: #3d4e50;
-  padding-bottom: 3rem;
-  font-size: 2rem;
 }
 .flex-item__item6 {
   background-color: #35384d;
-  padding-bottom: 3rem;
-  font-size: 2rem;
 }
 .flex-item__item7 {
   background-color: #1ebdd2;
-  padding-bottom: 3rem;
-  font-size: 2rem;
 }
 .flex-item__item8 {
   background-color: #201508;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }
 .flex-item__item9 {
   background-color: #615c5f;
-  padding-bottom: 3rem;
-  font-size: 1.5rem;
 }

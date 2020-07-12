@@ -1,13 +1,17 @@
 body {
   margin: 0;
+  background-color: #ccc;
 }
 
 .container {
   border: 3px solid rgb(3, 3, 3);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-items: stretch;
+  justify-content: center;
+  //height: 2600px;
+  
+  //align-items: stretch;
 
   /*height: 800px;
   flex-wrap: wrap;
@@ -47,56 +51,81 @@ body {
 .flex-item {
   color: white;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: 5px solid green;
   text-align: center;
+  //flex-grow: 1;
+  //flex-basis: 500px;
+  //flex-shrink: 0;
+  flex: 1 0 500px;
+
+
+
   &__ol li {
     list-style-type: none;
   }
   &__item1 {
     background-color: chocolate;
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+   // align-self: flex-start;
+    
+  
+    // padding-bottom: 3rem;
+    // font-size: 1.5rem;
   }
 
   &__item2 {
     background-color: rgb(15, 14, 13);
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+    //align-self: flex-end;
+    
+
+    
+    // padding-bottom: 3rem;
+    // font-size: 1.5rem;
   }
   &__item3 {
     background-color: darkblue;
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+    // padding-bottom: 3rem;
+    // font-size: 1.5rem;
+   // align-self: center;
   }
   &__item4 {
     background-color: rgb(30, 189, 210);
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+    // padding-bottom: 3rem;
+    // font-size: 1.5rem;
+    //align-self: stretch;
   }
 
   &__item5 {
     background-color: rgb(61, 78, 80);
-    padding-bottom: 3rem;
-    font-size: 2rem;
+  
+    // padding-bottom: 3rem;
+    // font-size: 2rem;
+    
   }
   &__item6 {
     background-color: rgb(53, 56, 77);
-    padding-bottom: 3rem;
-    font-size: 2rem;
+    // padding-bottom: 3rem;
+    // font-size: 2rem;
   }
   &__item7 {
     background-color: rgb(30, 189, 210);
-    padding-bottom: 3rem;
-    font-size: 2rem;
+    
+    // padding-bottom: 3rem;
+    // font-size: 2rem;
+
   }
   &__item8 {
     background-color: rgb(32, 21, 8);
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+    // padding-bottom: 3rem;
+    // font-size: 1.5rem;
+  
   }
   &__item9 {
     background-color: rgb(97, 92, 95);
-    padding-bottom: 3rem;
-    font-size: 1.5rem;
+  //   padding-bottom: 3rem;
+  //   font-size: 1.5rem;
+  //   orphans: 1;
+ 
   }
 }
