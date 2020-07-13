@@ -69,7 +69,7 @@ body {
   color: #fff;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
   nav ul {
     flex-direction: column;
   }
