@@ -6,8 +6,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body class="mybody">
-    <h1>flexbox</h1>
+  <body>
+
+    <nav class="nav">
+
+      <ul class="nav__ul">
+
+        <li class="nav__li">home </li>
+        <li class="nav__li">about</li>
+        <li class="nav__li">services</li>
+        <li class="nav__li">contact</li>
+      </ul>
+    </nav>
 
     <div class="container">
       <div class="flex-item flex-item__item1">
@@ -113,13 +123,75 @@
       <li> space-around </li>
     </ul>
     </div>
-      <div class="flex-item flex-item__item9">conclusion <hr>
+
+      <div class="flex-item flex-item__item9">flex-item properties <hr>
       <p>
-these are all properties that work with container!! <br>
-the upcoming will be the individual properties. <br>
-thanks!!
+<h1>  All properties that work with flex-item:</h1><br>
+<ul>
+<li>oreder</li>
+<li>flex-grow</li>
+<li>flex-shrink</li>
+<li>flex-basis</li>
+<li>flex</li>
+<li>align-self</li>
+</ul>
       </p> 
     </div>
+
+    <div class="flex-item flex-item__item10">
+
+      <h1>  order properties:</h1><br>
+      <p>the order in which flex item appear in the flex container, by default all items have an order of zero, so order 1 is greater than the order of all other items  and hence it appears in the very end</p>
+    </div>
+
+    <div class="flex-item flex-item__item11"> 
+      <h1> flex-grow properties: </h1> <br>
+      <p>the ability of flex item to grow if necessary <br> 
+      by default all flex item have  flex grow value of zero <br>
+    the item will not grow to fit the container  </p>
+    </div>
+
+    <div class="flex-item flex-item__item12"> 
+      <h1> flex-shrink properties: </h1> <br>
+      <p>the ability of flex item to shrink if necessary <br> 
+      by default the value is 1 <br>
+    it implies that the item will shrink when necessary </p>
+    </div>
+
+    
+    <div class="flex-item flex-item__item13"> 
+      <h1> flex-basis properties: </h1> <br>
+      <p>specifies the initial size of flex-item before the extra space in the container is distributed, this is used in a place of width property in flex layout <br> 
+      by default the flex-bases has a  value of auto  <br>
+      it implies that the width of the item depends on their content <br>
+    you can specify values in pixels, precentage or relative units</p>
+    </div>
+
+      
+    <div class="flex-item flex-item__item14"> 
+      <h1> flex  properties: </h1> <br>
+      <p> short hand  for flex-grow, flex-shrink and flex-basis <br>
+      
+      flex-grow: 1; <br>
+      flex-shrink: 0; <br>
+      flelx-basis: 500px; <br>
+
+      here is the code <br>
+       <code> flex: 1 0 500px; </code>
+      </p>
+    </div>
+
+    <div class="flex-item flex-item__item15"> 
+      <h1> align-self properties: </h1> <br>
+      <p> alignment of individual flex items <br>
+        override of the align items value of flex container <br>
+      
+     default value is auto <br>
+     align-item of container has default value of STRETCH <br>
+     align-self of individual items has defaultvalue of AUTO;
+      </p>
+    </div>
+
     </div>
   </body>
 </html>
