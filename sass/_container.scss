@@ -46,6 +46,12 @@ font-size: 2rem;
   nav ul li {
     text-align: center;
   }
+  nav ul li :hover {
+
+    background-color: rgb(143, 16, 16);
+      color: rgb(87, 238, 187);
+
+  }
 }
 
 .container {

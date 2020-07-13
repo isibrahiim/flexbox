@@ -77,6 +77,11 @@ body {
   nav ul li {
     text-align: center;
   }
+
+  nav ul li :hover {
+    background-color: #8f1010;
+    color: #57eebb;
+  }
 }
 .container {
   border: 3px solid #030303;
