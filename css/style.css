@@ -69,17 +69,22 @@ body {
   color: #fff;
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
   nav ul {
     flex-direction: column;
   }
 
-  nav ul li {
+  .nav, .nav__li {
     text-align: center;
+  }
+
+  .nav__li:hover {
+    background-color: #b8b0e4;
+    color: #692f2f;
   }
 }
 .container {
-  border: 3px solid #030303;
+  border: 3px solid #a02c2c;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
