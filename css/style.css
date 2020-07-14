@@ -49,20 +49,29 @@ body {
 }
 
 .nav {
-  background-color: #f1f1f1;
-  font-size: 2rem;
+  background-color: #302f2d;
+  border: 2px solid #360404;
+  border-radius: 10px;
 }
 .nav__ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   display: flex;
+  justify-content: flex-end;
 }
 .nav__li {
   cursor: pointer;
-  padding: 0.5;
-  flex: auto;
+  padding: 1.5rem;
   text-align: center;
+}
+.nav__a {
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  text-decoration: none;
+  border-left: 1px solid #fff;
+  font-size: 1.5rem;
 }
 .nav__li:hover {
   background-color: #555;
@@ -74,7 +83,8 @@ body {
     flex-direction: column;
   }
 
-  .nav, .nav__li {
+  .nav,
+.nav__li {
     text-align: center;
   }
 
